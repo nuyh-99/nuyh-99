@@ -17,8 +17,7 @@
 #### 🗂️ 만들어 본 것 (접은 프로젝트는 접은 이유까지 적었습니다)
 
 - **[지꾸 Ji-kku](https://github.com/nuyh-99/ji-kku-frontend)** · [데모](https://ji-kku-frontend-seven.vercel.app)<br>
-  관광데이터 공모전 출품작. 강원 지역 여행지 방문을 지도에 기록하고 업적을 모으는 웹앱입니다(3인 팀, 프론트엔드).<br>
-  <!-- 본인 담당 부분으로 고쳐 주세요. 예: 실제 시군 경계 데이터로 SVG 지도 이동·확대 구현, 18개 시군 배지 디자인 -->
+  관광데이터 공모전 출품작. 강원 지역 여행지 방문을 지도에 기록하고 업적을 모으는 웹앱입니다(3인 팀, PM 겸 프론트엔드).<br>
   `Next.js 16` `React 19` `TypeScript` `Tailwind v4` `Zustand`
 - **interior-mvp** (비공개) — 인테리어 업체 상담자가 고객 방 사진에 커튼·블라인드·벽지를 바꿔 입혀 1분 안에 보여 주는 B2B 도구.<br>
   `FastAPI` `Gemini 이미지 편집` `SQLite`<br>
