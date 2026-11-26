@@ -1,16 +1,33 @@
-## Hi there 👋
+### 안녕하세요, 박태현입니다 👋
 
-<!--
-**nuyh-99/nuyh-99** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+한양대학교 ERICA 데이터인텔리전스전공 · 컴퓨터학부(다중전공) 2학년입니다.
+사람들이 돈을 내고서라도 맡기고 싶은 **반복 업무를 자동화하는 서비스**를 만들고 싶습니다.
+2026년 겨울방학부터 PANDA Lab 학부연구생으로 AI 에이전트 활용 연구에 참여할 예정입니다.
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+#### 🔨 지금 만들고 있는 것
+
+- **[Cramit](https://github.com/cramit-service/CRAMIT-FE)** · [데모](https://cramit-fe.vercel.app)<br>
+  강의자료 PDF와 수업 녹음을 AI로 맞춰 요약해 주는 대학생용 학습 보조 서비스. 팀에서 프론트엔드 2명 중 1명을 맡았습니다.<br>
+  `Next.js 15` `TypeScript` `Tailwind v4` `TanStack Query`
+- **큐잡겜** (준비 중) — 게임 큐 대기 시간에 즐기는 웹 추리게임.<br>
+  사건을 JSON으로 정의하고, 범인이 한 명으로만 좁혀지는지 검증 스크립트를 통과한 사건만 공개할 계획입니다.
+
+#### 🗂️ 만들어 본 것 (접은 프로젝트는 접은 이유까지 적었습니다)
+
+- **[지꾸 Ji-kku](https://github.com/nuyh-99/ji-kku-frontend)** · [데모](https://ji-kku-frontend-seven.vercel.app)<br>
+  관광데이터 공모전 출품작. 강원 지역 여행지 방문을 지도에 기록하고 업적을 모으는 웹앱입니다(3인 팀, 프론트엔드).<br>
+  <!-- 본인 담당 부분으로 고쳐 주세요. 예: 실제 시군 경계 데이터로 SVG 지도 이동·확대 구현, 18개 시군 배지 디자인 -->
+  `Next.js 16` `React 19` `TypeScript` `Tailwind v4` `Zustand`
+- **interior-mvp** (비공개) — 인테리어 업체 상담자가 고객 방 사진에 커튼·블라인드·벽지를 바꿔 입혀 1분 안에 보여 주는 B2B 도구.<br>
+  `FastAPI` `Gemini 이미지 편집` `SQLite`<br>
+  → 같은 사진인데 결과 색감이 매번 달라 seed·temperature를 고정해 재현성을 맞추기도 했지만, 이미지 생성 원가가 예상보다 높았고 상담만 받고 계약하지 않는 고객이 쌓일수록 손해가 커지는 구조라 중단했습니다.<br>
+  상담 성공률을 올리는 도구보다 반복 업무를 없애는 도구가 맞았다는 게 제 결론입니다.
+- **주식 백테스트 엔진** (비공개) — 미래 데이터 참조(look-ahead) 차단, 슬리피지·수수료를 반영한 체결 시뮬레이터, 전략별 독립 계좌까지 구현했습니다.<br>
+  성과 평가·리포팅 단계에 들어가기 전에 중단했습니다.
+
+#### 🧰 작업 방식
+
+구현은 Claude Code 같은 AI 코딩 도구와 함께 하고, 문제 정의·설계 결정·회고는 제가 직접 합니다.
+프로젝트마다 `CLAUDE.md`에 규칙과 맥락을 고정해 두고 작업합니다.
